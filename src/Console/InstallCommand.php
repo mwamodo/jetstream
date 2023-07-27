@@ -147,7 +147,7 @@ class InstallCommand extends Command
     protected function installLivewireStack()
     {
         // Install Livewire...
-        if (! $this->requireComposerPackages('livewire/livewire:^2.11')) {
+        if (! $this->requireComposerPackages('livewire/livewire:^3.0@beta')) {
             return false;
         }
 
@@ -167,8 +167,6 @@ class InstallCommand extends Command
             return [
                 '@tailwindcss/forms' => '^0.5.2',
                 '@tailwindcss/typography' => '^0.5.0',
-                'alpinejs' => '^3.0.6',
-                '@alpinejs/focus' => '^3.10.5',
                 'autoprefixer' => '^10.4.7',
                 'postcss' => '^8.4.14',
                 'tailwindcss' => '^3.1.0',
