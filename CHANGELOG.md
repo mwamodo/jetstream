@@ -1,6 +1,28 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/jetstream/compare/v3.2.5...3.x)
+## [Unreleased](https://github.com/laravel/jetstream/compare/v3.3.3...3.x)
+
+## [v3.3.3](https://github.com/laravel/jetstream/compare/v3.3.2...v3.3.3) - 2023-08-23
+
+- Fix memory leak and potential caching issue in https://github.com/laravel/jetstream/pull/1366
+
+## [v3.3.2](https://github.com/laravel/jetstream/compare/v3.3.1...v3.3.2) - 2023-08-21
+
+- Remove redundant v-if from menu by [@itbm](https://github.com/itbm) in https://github.com/laravel/jetstream/pull/1362
+
+## [v3.3.1](https://github.com/laravel/jetstream/compare/v3.3.0...v3.3.1) - 2023-08-14
+
+- Improves Jetstream model factories by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/jetstream/pull/1356
+- Make recovery code light when it on dark mode by [@irsyadadl](https://github.com/irsyadadl) in https://github.com/laravel/jetstream/pull/1355
+- Fix the banner not showing again after dismissed by the user if the next message contents are the same by [@tomsb](https://github.com/tomsb) in https://github.com/laravel/jetstream/pull/1352
+
+## [v3.3.0](https://github.com/laravel/jetstream/compare/v3.2.5...v3.3.0) - 2023-08-08
+
+- [3.x] Remove unnecessary Ziggy parameter which causes ESLint errors by [@Smef](https://github.com/Smef) in https://github.com/laravel/jetstream/pull/1347
+- [3.x] Use available `ServiceProvider::callAfterResolving()` by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/jetstream/pull/1350
+- [3.x] Laravel Pint fixes by [@iruoy](https://github.com/iruoy) in https://github.com/laravel/jetstream/pull/1351
+- [3.x] Prompts by [@jessarcher](https://github.com/jessarcher) in https://github.com/laravel/jetstream/pull/1337
+- [3.x] Pest detection by [@jessarcher](https://github.com/jessarcher) in https://github.com/laravel/jetstream/pull/1353
 
 ## [v3.2.5](https://github.com/laravel/jetstream/compare/v3.2.4...v3.2.5) - 2023-07-13
 
